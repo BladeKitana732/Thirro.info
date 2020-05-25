@@ -39,3 +39,5 @@ public class Event {
 //  event_date: Srting,
 //  event_summary: String
 //}
+
+//now we go to insomnia to input api data to be used :D
