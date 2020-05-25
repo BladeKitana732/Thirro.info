@@ -15,3 +15,13 @@ public class Event {
     }
 
 }
+
+
+//object api should print something like this
+//{
+//  eventid: int,
+//  event_name: String,
+//  event_location: String,
+//  event_date: Srting,
+//  event_summary: String
+//}
