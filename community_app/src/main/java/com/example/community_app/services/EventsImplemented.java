@@ -11,11 +11,11 @@ public class EventsImplemented implements EventService{
 
     @Override
     public Events createEvent(Events events) {
-        return null;
+        return eventRepo.save(events);
     }
 
     @Override
     public Iterable<Events> getEvents() {
-        return null;
+        return eventRepo.findAll();
     }
 }
