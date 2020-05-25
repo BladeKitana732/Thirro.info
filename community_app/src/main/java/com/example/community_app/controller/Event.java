@@ -42,3 +42,4 @@ public class Event {
 
 //now we go to insomnia to input api data to be used :D
 //reran to ensure it is still working before starting :D test completed: Started DemoApplication in 14.704 seconds (JVM running for 16.586)
+//hard coding the following events from website: https://www.bmc.com/blogs/software-development-programming-conferences/
