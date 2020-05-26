@@ -48,4 +48,5 @@ public class DevSpeaker {
 
 }
 
+//data shows in localhost8080/dev_speakers :D
 //resource of where i am getting info for api data on speakers: https://www.developerweek.com/conference/speakers/
