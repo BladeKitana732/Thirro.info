@@ -1,36 +1,43 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import LeaderMapping from './LeaderMapping';
 
-export default class DevLeaders extends Component {
-    
-    state = {
-        leader: []
+const apiBaseUrl = `https://thirro-info.herokuapp.com/`;
+
+export default class LeadersState extends Component {
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            devLeader: []
+        }
     }
 
     componentDidMount() {
-        let leadersApi = `https://thirro-info.herokuapp.com/dev_speakers`;
-        
-        axios.get(leadersApi)
+        this.getSpeaker();
+    }
     
-        .then((Response) => {
-            const leaders= Response.data.map(details => details.speaker_name);
-    
-            console.log(leaders);
-    
-            this.setState({
-                leadersName: leaders
-            })
-        })
+    async getSpeaker(){
+        try {
+            const response = await axios.get(apiBaseUrl + 'dev_speakers');
 
+            this.setState({
+                devLeader: response.data
+            })
+        }
+
+        catch(error) {
+            console.log("Error message: " , error)
+        }
     }
 
 
     render() {
         return (
             <div>
-                <h1>Thirro.DevLeaders!</h1>
-                <h2>{this.state.leadersName}</h2>
+                <LeaderMapping leader={this.state.devLeader} />
             </div>
         )
     }
 }
+
