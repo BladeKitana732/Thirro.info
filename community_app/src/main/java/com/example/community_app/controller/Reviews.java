@@ -11,3 +11,9 @@ public class Reviews {
         return "Hey! I am your review endpoint!";
     }
 }
+
+//object api should print following
+//{
+// username: String,
+// message: String
+//        }
