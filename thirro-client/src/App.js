@@ -1,14 +1,15 @@
 import React from 'react';
 import './App.css';
-import Events from './components/Events';
+// import Events from './components/Events';
+import DevLeaders from './components/DevLeaders';
 
 
 function App() {
 
   return (
     <div className="App">
-    
-    <Events />
+
+    <DevLeaders />
    
     </div>
   );
