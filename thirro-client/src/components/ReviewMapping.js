@@ -8,10 +8,10 @@ export default function ReviewMapping(props) {
 
       {props.messages.map(message => <ReviewProp 
       username= {message.username}
-      reviewMessage= {message.message}
+      message= {message.message}
       />
       )}
-      
+
     </div>
   )
 }
