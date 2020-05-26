@@ -35,6 +35,7 @@ export default class LeadersState extends Component {
     render() {
         return (
             <div>
+            <h1>Thirro.DevLeaders!</h1>
                 <LeaderMapping leader={this.state.devLeader} />
             </div>
         )

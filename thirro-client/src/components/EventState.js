@@ -34,6 +34,7 @@ export default class EventState extends Component {
     render() {
         return (
             <div>
+            <h1>Thirro.Events!</h1>
                 <EventMapping events={this.state.event}/>
             </div>
         )
