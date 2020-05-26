@@ -49,5 +49,8 @@ Must contain a readme file at the root of the repository- This is readme for roo
  readme file has embedded link (not url) to publicly deployed app- 
  
  readme file includes image to wireframes
+
+![wireframe](./Photoapp2.jpg)
+
  
  
