@@ -8,9 +8,8 @@ nav ul {
   display: grid;
   grid-template-columns: repeat(5, auto);
   grid-row-gap: 3em;
-  grid-column-gap: 2em;
-  margin: 0 0 0 20px;
-  padding-left: auto;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
   border: solid 2px blue;
   text-align: center;
 }

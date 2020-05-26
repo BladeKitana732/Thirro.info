@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import ReviewMapping from './ReviewMapping';
 
 const apiBaseUrl = `https://thirro-info.herokuapp.com/`;
 
@@ -39,4 +38,4 @@ export default class ReviewState extends Component {
         )
     }
 }
- //referencing https://github.com/angeljuarez77/fullstack-we-lit from office hours :D
+

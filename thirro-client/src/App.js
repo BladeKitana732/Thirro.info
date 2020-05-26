@@ -8,7 +8,7 @@ import {
 } from "react-router-dom";
 import Logo from './components/Logo';
 import ReviewState from './components/ReviewState';
-import Events from './components/Events';
+import Events from './components/EventState';
 import Home from './components/Home';
 import DevLeaders from './components/DevLeaders';
 //resource for switch/navbar etc
