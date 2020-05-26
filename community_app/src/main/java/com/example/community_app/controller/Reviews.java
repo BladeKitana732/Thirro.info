@@ -14,6 +14,7 @@ public class Reviews {
 
 //object api should print following
 //{
+// messageid: int,
 // username: String,
 // message: String
 //        }
