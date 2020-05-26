@@ -36,7 +36,7 @@ Must contain a readme file at the root of the repository- This is readme for roo
  
  Frontend uses AJAX requests to pass information to the backend- Completed
  
- App should be able to use CRUD in some form- 
+ App should be able to use CRUD in some form- Completed (Home.js component)
  
  readme file clearly documents the purpose of the project as a problem statement
  ## Problem Statement 
