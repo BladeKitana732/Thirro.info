@@ -6,13 +6,20 @@ button {
 
 nav ul {
   display: grid;
-  grid-template-columns: repeat(4, auto);
+  grid-template-columns: repeat(5, auto);
   grid-row-gap: 3em;
   grid-column-gap: 2em;
   margin: 0 0 0 20px;
+  padding-left: auto;
+  border: solid 2px blue;
+  text-align: center;
 }
 
-
+img {
+  height: 200px;
+  width: 200px;
+  border-radius: 20% 40%;
+}
 
 .navbar {
   border: solid 2px black;

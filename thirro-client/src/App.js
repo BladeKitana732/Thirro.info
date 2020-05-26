@@ -10,8 +10,10 @@ import Events from './components/Events';
 import Reviews from './components/Reviews';
 import DevLeaders from './components/DevLeaders';
 import Home from './components/Home';
+import Logo from './components/Logo';
 //resource for switch/navbar etc
 // https://reacttraining.com/react-router/web/guides/quick-start
+
 
 
 function App() {
@@ -22,6 +24,7 @@ function App() {
       <div id="navContainer">
         <nav className="navbar">
           <ul>
+          <Logo />
             <li>
               <Link to="/">Home</Link>
             </li>
