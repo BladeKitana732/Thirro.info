@@ -1,10 +1,21 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-export default function Home() {
-    return (
-        <div>
-            <h1>Thirro.Home!</h1>
-            
-        </div>
-    )
+//referencing userinput projects such as: https://github.com/BladeKitana732/Pawtastic_form/blob/master/pawtastic/src/components/Forms.js with crud functionality
+export default class Home extends Component {
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            input: '',
+            topics: []
+        }
+    }
+    render() {
+        return (
+            <div>
+                
+            </div>
+        )
+    }
 }
+
