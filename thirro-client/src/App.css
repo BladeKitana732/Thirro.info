@@ -4,4 +4,12 @@ button {
   font-size: 15px;
 }
 
+.navbar {
+  border: solid 2px black;
+}
+
+ul li {
+  list-style: none;
+}
+
 /* pulling for readme made */
