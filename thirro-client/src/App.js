@@ -10,7 +10,7 @@ import Logo from './components/Logo';
 import ReviewState from './components/ReviewState';
 import Events from './components/EventState';
 import Home from './components/Home';
-import DevLeaders from './components/DevLeaders';
+import LeadersState from './components/LeadersState';
 //resource for switch/navbar etc
 // https://reacttraining.com/react-router/web/guides/quick-start
 
@@ -48,7 +48,7 @@ function App() {
             <ReviewState />
           </Route>
           <Route path="/dev_speakers">
-            <DevLeaders />
+            <LeadersState />
           </Route>
           <Route path="/">
             <Home />

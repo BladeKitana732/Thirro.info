@@ -10,3 +10,5 @@ export default function EventProp(props) {
     </div>
   )
 }
+
+//also referenced https://github.com/BladeKitana732/Covid-Tracker
