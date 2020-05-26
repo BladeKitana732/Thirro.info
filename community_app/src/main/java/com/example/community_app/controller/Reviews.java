@@ -29,3 +29,5 @@ public class Reviews {
 // username: String,
 // message: String
 //        }
+
+//testing api data being rendered in localhost:8080/reviews
