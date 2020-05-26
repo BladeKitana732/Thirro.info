@@ -50,7 +50,9 @@ Must contain a readme file at the root of the repository- This is readme for roo
  
  readme file includes image to wireframes
 
-![wireframe](./Photoapp2.jpg)
+![wireframe](./Thirro.infoWF.jpg)
+
+![wireframe](./Thirro_infoWF2.jpg)
 
  
  
