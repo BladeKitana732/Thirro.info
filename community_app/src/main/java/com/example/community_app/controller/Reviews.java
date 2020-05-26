@@ -1,15 +1,26 @@
 package com.example.community_app.controller;
 
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
+import com.example.community_app.models.Review;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+import com.example.community_app.services.ReviewService;
 
 @RestController
+@RequestMapping("/reviews")
 public class Reviews {
-    @GetMapping("/reviews")
-    public String reviewPost(){
-        return "Hey! I am your review endpoint!";
-    }
+    @Autowired
+    ReviewService reviewService;
+
+  @GetMapping
+    public Iterable<Review> getReview(){
+      return reviewService.getReview();
+  }
+
+  @PostMapping
+   public Review createReview(@RequestBody Review review) {
+      return reviewService.createReview(review);
+  }
 }
 
 //object api should print following
