@@ -6,11 +6,11 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import Events from './components/Events';
-import Reviews from './components/Reviews';
-import DevLeaders from './components/DevLeaders';
-import Home from './components/Home';
 import Logo from './components/Logo';
+import ReviewState from './components/ReviewState';
+import Events from './components/Events';
+import Home from './components/Home';
+import DevLeaders from './components/DevLeaders';
 //resource for switch/navbar etc
 // https://reacttraining.com/react-router/web/guides/quick-start
 
@@ -45,7 +45,7 @@ function App() {
             <Events />
           </Route>
           <Route path="/reviews">
-            <Reviews />
+            <ReviewState />
           </Route>
           <Route path="/dev_speakers">
             <DevLeaders />
