@@ -5,7 +5,7 @@ import axios from 'axios';
 
 function App() {
   async function backendInfoTest() {
-    const response = await axios.get(`http://localhost:8080/events`);
+    const response = await axios.get(`http://localhost:8080/reviews`);
     console.log(response.data);
 
   }
