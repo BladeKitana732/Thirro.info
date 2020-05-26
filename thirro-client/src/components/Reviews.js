@@ -28,7 +28,7 @@ export default class Reviews extends Component {
     render() {
         return (
             <div>
-                <h1>Thirro.DevLeaders!</h1>
+                <h1>Thirro.Reviews!</h1>
                 <h2>{this.state.reviewMessage}</h2>
             </div>
         )
