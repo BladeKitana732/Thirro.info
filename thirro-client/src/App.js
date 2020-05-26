@@ -11,6 +11,7 @@ import ReviewState from './components/ReviewState';
 import Events from './components/EventState';
 import Home from './components/Home';
 import LeadersState from './components/LeadersState';
+import ThirdApi from './components/ThirdApi';
 //resource for switch/navbar etc
 // https://reacttraining.com/react-router/web/guides/quick-start
 
@@ -37,10 +38,16 @@ function App() {
             <li>
               <Link to="/dev_speakers">DevLeaders</Link>
             </li>
+            <li>
+              <Link to="/third_api">Jokes!</Link>
+            </li>
           </ul>
         </nav>
 
         <Switch>
+         <Route path="/third_api">
+           <ThirdApi />
+          </Route>
           <Route path="/events">
             <Events />
           </Route>
