@@ -1,27 +1,28 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import EventMapping from './EventMapping';
 
 const apiBaseUrl = `https://thirro-info.herokuapp.com/`;
 
-export default class ReviewState extends Component {
+export default class EventState extends Component {
     constructor(props) {
         super(props);
 
         this.state = {
-            message: [],
+            event: [],
         }
     }
 
     componentDidMount() {
-        this.getMessage();
+        this.getEvent();
     }
 
-    async getMessage() {
+    async getEvent() {
         try {
-            const response = await axios.get(apiBaseUrl + 'reviews');
+            const response = await axios.get(apiBaseUrl + 'events');
 
             this.setState({
-                message: response.data
+                event: response.data
             })
         }
 
@@ -33,7 +34,7 @@ export default class ReviewState extends Component {
     render() {
         return (
             <div>
-                <ReviewMapping messages={this.state.message}/>
+                <EventMapping events={this.state.event}/>
             </div>
         )
     }
