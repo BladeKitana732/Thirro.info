@@ -10,25 +10,25 @@ nav ul {
   grid-row-gap: 3em;
   margin: 0 0 0 0;
   padding: 0 0 0 0;
-  border: solid 2px blue;
+  /* border: solid 2px blue; */
   text-align: center;
 }
 
 img {
-  height: 200px;
+  height: 150px;
   width: 200px;
   border-radius: 20% 40%;
 }
 
 .navbar {
-  border: solid 2px black;
+  /* border: solid 2px black; */
 }
 
 
 
 li {
   list-style: none;
-  border: solid 2px purple;
+  /* border: solid 2px purple; */
   font-size: 20px;
   font-family: 'Courier New', Courier, monospace;
   font-weight: 400;
