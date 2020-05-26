@@ -47,3 +47,5 @@ public class DevSpeaker {
     }
 
 }
+
+//resource of where i am getting info for api data on speakers: https://www.developerweek.com/conference/speakers/
