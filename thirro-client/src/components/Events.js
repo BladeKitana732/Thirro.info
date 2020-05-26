@@ -15,7 +15,7 @@ componentDidMount() {
     axios.get(eventsApi)
 
     .then((Response) => {
-        const events= Response.data.id;
+        const events= Response.data.map(details => details.event_name);
 
         console.log(events);
 
