@@ -24,10 +24,6 @@ public class Event {
         return eventService.createEvent(events);
     }
 
-
-
-
-
 }
 
 
