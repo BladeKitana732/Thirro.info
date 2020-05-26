@@ -10,6 +10,8 @@ import Events from './components/Events';
 import Reviews from './components/Reviews';
 import DevLeaders from './components/DevLeaders';
 import Home from './components/Home';
+//resource for switch/navbar etc
+// https://reacttraining.com/react-router/web/guides/quick-start
 
 
 function App() {
