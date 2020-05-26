@@ -14,7 +14,7 @@ Minimum Project Requirements
  
  ReactJS is used for frontend development- Completed 
  
- Uses CSS or styled components to style application- 
+ Uses CSS or styled components to style application- Completed
  
  Uses MVC architecture- Completed 
  
@@ -22,7 +22,7 @@ Minimum Project Requirements
  
  Application uses 3 models in backend using Hibernate/JPA- Completed (Events;Reviews;DevSpeakers)
  
- App renders in browser- 
+ App renders in browser- Completed 
  
  Uses a 3rd party api- 
  
@@ -34,7 +34,7 @@ Must contain a readme file at the root of the repository- This is readme for roo
 
  Git repo has at least 30 git commit- Completed 
  
- Frontend uses AJAX requests to pass information to the backend- 
+ Frontend uses AJAX requests to pass information to the backend- Completed
  
  App should be able to use CRUD in some form- 
  
@@ -48,7 +48,7 @@ Must contain a readme file at the root of the repository- This is readme for roo
  
  readme file has embedded link (not url) to publicly deployed app- 
  
- readme file includes image to wireframes
+ readme file includes image to wireframes- Completed 
 
 ![wireframe](./Thirro.infoWF.jpg)
 
