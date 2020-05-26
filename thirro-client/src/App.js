@@ -5,7 +5,7 @@ import axios from 'axios';
 
 function App() {
   async function backendInfoTest() {
-    const response = await axios.get(`http://localhost:8080/dev_speakers`);
+    const response = await axios.get(`https://thirro-info.herokuapp.com/events`);
     console.log(response.data);
 
   }
