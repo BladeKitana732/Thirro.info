@@ -4,12 +4,24 @@ button {
   font-size: 15px;
 }
 
+nav ul {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-row-gap: 3em;
+  grid-column-gap: 2em;
+  margin: 0 0 0 20px;
+}
+
+
 .navbar {
   border: solid 2px black;
 }
 
-ul li {
+
+
+li {
   list-style: none;
+  border: solid 2px purple;
 }
 
 /* pulling for readme made */

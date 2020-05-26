@@ -17,10 +17,9 @@ import Home from './components/Home';
 function App() {
 
   return (
-    <div className="App">
     
     <Router>
-      <div>
+      <div id="navContainer">
         <nav className="navbar">
           <ul>
             <li>
@@ -55,7 +54,6 @@ function App() {
       </div>
     </Router>
    
-    </div>
   );
 }
 
