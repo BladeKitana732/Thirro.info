@@ -5,20 +5,25 @@ import axios from 'axios';
 
 export default class Events extends Component {
 
-    state = {
-        event: []
+    constructor(){
+        super();
+
+        this.state = {
+            event: []
+        }
     }
 
-    componentDidMount() {
-        let eventEndpoint = "https://thirro-info.herokuapp.com/events";
+    async componentDidMount() {
+        const response = await axios.get("https://thirro-info.herokuapp.com/events");
 
-        axios.get(eventEndpoint) 
+        const events = response.data;
 
-        .then((result) => {
-            const events = result.data;
+        console.log(events);
+        // this.setState ({
 
-            console.log(events);
-        })
+        // })
+
+   
     }
     
 
@@ -26,7 +31,8 @@ export default class Events extends Component {
     render() {
         return (
             <div>
-                <h1>Event component sanity check</h1>
+                <h1>Thirro.Events!</h1>
+               
             </div>
         )
     }
