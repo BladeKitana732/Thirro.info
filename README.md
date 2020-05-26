@@ -24,7 +24,7 @@ Minimum Project Requirements
  
  App renders in browser- Completed 
  
- Uses a 3rd party api- 
+ Uses a 3rd party api- https://sv443.net/jokeapi/v2 Completed
  
  Project is deployed using 1 of the deployment options(heroku, surge, aws or firebase) - Using heroku
  
