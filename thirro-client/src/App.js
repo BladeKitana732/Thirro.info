@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
 // import Events from './components/Events';
-import DevLeaders from './components/DevLeaders';
+// import DevLeaders from './components/DevLeaders';
+import Reviews from './components/Reviews';
 
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
   return (
     <div className="App">
 
-    <DevLeaders />
+    <Reviews />
    
     </div>
   );
