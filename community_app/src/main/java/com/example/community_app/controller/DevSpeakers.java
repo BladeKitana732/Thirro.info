@@ -10,3 +10,10 @@ public class DevSpeakers {
         return "Hey! I am your last model/table. Yayy!";
     }
 }
+
+
+
+//{
+// speaker_name: String,
+// about_speaker: String
+//        }
